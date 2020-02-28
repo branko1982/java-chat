@@ -1,0 +1,48 @@
+.text-area
+{
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-text-box-border: transparent;
+    -fx-text-fill: #ffffff;
+}
+.text-area > .scroll-pane{
+
+-fx-vbar-policy:always; /* Control the vertical ScrollBar (always,needed,never) */
+}
+#pane1
+{
+    -fx-pref-width: 1055px;
+    -fx-pref-height: 608px;
+    -fx-background-color: #000000;
+}
+#toolName
+{
+    -fx-font-size: 20px;
+}
+.button
+{
+    -fx-background-color: #0020A3;
+    -fx-transition: 1s ease;
+}
+.button:hover
+{
+    -fx-background-color:  #2986FF;
+}
+#remoteHostAddress, #remotePortNumber, #localPortNumber, #shittyURL, #messageEncryptionPassphraseValue
+{
+    -fx-background-color: #414141;
+    -fx-text-fill: #ffffff;
+    -fx-focus-color: green;
+    -fx-border-width: 0px;
+    -fx-border-bottom-width: 1px;
+    -fx-border-color: green;
+}
+.text-area .content{
+    -fx-background-color: #414141;
+}
+#applicationLog 
+{
+    -fx-pref-width:  400px;;
+    -fx-pref-height:  608px;
+    -fx-text-fill: #297A32;
+}
